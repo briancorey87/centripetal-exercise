@@ -11,3 +11,34 @@ Updated: 2025-03-07 23:32:30
 
 */
 
+h1{
+    margin-bottom: 2rem;
+}
+.green-heading{
+    color: #48ff2a;
+}
+.white-heading{
+    color: #ffffff;
+}
+.purple-heading{
+    color: #5450DE;
+}
+@media screen and (max-width: 1024px){
+    .header-button{
+        display: none;
+    }
+}
+body .elementor-nav-menu--dropdown.elementor-nav-menu__container{
+    margin-top: 0;
+}
+@media (max-width: 767px) {
+    .elementor-82 .elementor-element.elementor-element-6ba93b8.elementor-element {
+        width: 100%;
+    }
+}
+.elementor-82 .elementor-element.elementor-element-5f62434:has(.elementor-active){
+    flex-direction: column;
+}
+.elementor-82 .elementor-element.elementor-element-5f62434:has(.elementor-active) .elementor-element-6ba93b8{
+    width: 100%;
+}
